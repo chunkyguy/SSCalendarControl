@@ -37,7 +37,7 @@ public class SSCalendarView: UIView, SSNibLoadable {
     fileprivate let headerViewID = "HeaderView"
     
     /// Calendar view configration
-    var configuration = SSCalendarConfiguration()
+    public var configuration = SSCalendarConfiguration()
     
     override public func awakeFromNib() {
         super.awakeFromNib()

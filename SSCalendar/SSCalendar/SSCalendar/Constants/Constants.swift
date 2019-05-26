@@ -135,71 +135,71 @@ public struct SSConstants {
 }
 
 /// SSCalendarView configuration
-class SSCalendarConfiguration {
+public class SSCalendarConfiguration {
     
     /// Previous day text color
-    var previousDayTextColor: UIColor = UIColor.black
+    public var previousDayTextColor: UIColor = UIColor.black
     
     /// Previous day border color
-    var previousDayBorderColor: UIColor = UIColor.black
+    public var previousDayBorderColor: UIColor = UIColor.black
     
     /// Previous day backgound color
-    var previousDayBackgroundColor: UIColor = UIColor(red: 255.0/255.0, green: 229.0/255.0, blue: 204.0/255.0, alpha: 1.0)
+    public var previousDayBackgroundColor: UIColor = UIColor(red: 255.0/255.0, green: 229.0/255.0, blue: 204.0/255.0, alpha: 1.0)
     
     /// Selected day text color
-    var selectedDayTextColor: UIColor = UIColor.black
+    public var selectedDayTextColor: UIColor = UIColor.black
     
     /// Selected background text color
-    var selectedDayBackGroudColor: UIColor = UIColor.lightGray
+    public var selectedDayBackGroudColor: UIColor = UIColor.lightGray
     
     /// Selected border text color
-    var selectedDayBorderColor = UIColor.black
+    public var selectedDayBorderColor = UIColor.black
     
     /// Upcoming daye text color
-    var upcomingDayTextColor: UIColor = UIColor.black
+    public var upcomingDayTextColor: UIColor = UIColor.black
     
     /// Upcoming day background color
-    var upcomingDayBackgroundColor: UIColor = UIColor.white
+    public var upcomingDayBackgroundColor: UIColor = UIColor.white
     
     /// Upcoming day border color
-    var upcomingDaysBorderColor: UIColor = UIColor.black
+    public var upcomingDaysBorderColor: UIColor = UIColor.black
     
     /// Current day text color
-    var currentDayTextColor: UIColor = UIColor.red
+    public var currentDayTextColor: UIColor = UIColor.red
     
     /// Current day background color
-    var currentDayBackgroundColor: UIColor = UIColor.white
+    public var currentDayBackgroundColor: UIColor = UIColor.white
     
     /// Current day border color
-    var currentDayBorderColor: UIColor = UIColor.black
+    public var currentDayBorderColor: UIColor = UIColor.black
     
     /// Day label font
-    var dayLabelFont: UIFont = UIFont.systemFont(ofSize: 17)
+    public var dayLabelFont: UIFont = UIFont.systemFont(ofSize: 17)
     
     /// Month description label font
-    var monthLabelFont: UIFont = UIFont.systemFont(ofSize: 17)
+    public var monthLabelFont: UIFont = UIFont.systemFont(ofSize: 17)
     
     /// Month label text color
-    var monthLabelTextColor: UIColor = UIColor.black
+    public var monthLabelTextColor: UIColor = UIColor.black
     
     /// Week day name label font
-    var weekDayLabelFont: UIFont = UIFont.systemFont(ofSize: 17)
+    public var weekDayLabelFont: UIFont = UIFont.systemFont(ofSize: 17)
     
     /// Week day label text color
-    var weekDayLabelTextColor: UIColor = UIColor.black
+    public var weekDayLabelTextColor: UIColor = UIColor.black
     
     /// Week day label background color
-    var weekDayLabelBackgroundColor: UIColor = UIColor(red: 80.0/225.0, green: 144.0/255.0, blue: 207.0/255.0, alpha: 1.0)
+    public var weekDayLabelBackgroundColor: UIColor = UIColor(red: 80.0/225.0, green: 144.0/255.0, blue: 207.0/255.0, alpha: 1.0)
     
     /// Week day border color
-    var weekDayBorderColor: UIColor = UIColor.black
+    public var weekDayBorderColor: UIColor = UIColor.black
     
     /// Should round days cell
-    var shouldRoundDaysView: Bool = true
+    public var shouldRoundDaysView: Bool = true
     
     /// Monthview bottom line color
-    var monthViewBottomLineColor: UIColor = UIColor(red: 208.0/225.0, green: 211.0/255.0, blue: 212.0/255.0, alpha: 1.0)
+    public var monthViewBottomLineColor: UIColor = UIColor(red: 208.0/225.0, green: 211.0/255.0, blue: 212.0/255.0, alpha: 1.0)
     
     /// Monthview background color
-    var monthViewBackgroundColor: UIColor = UIColor.white
+    public var monthViewBackgroundColor: UIColor = UIColor.white
 }
